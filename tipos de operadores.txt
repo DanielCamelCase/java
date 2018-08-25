@@ -1,0 +1,28 @@
+* Aritmeticos
+
+	· suma +
+	· resta -
+	· multiplicacion *
+	· division /
+
+*Logicos, relacionales y booleanos
+
+	· Mayor que >
+	· Menor que <
+	· Mayor o menor que <>
+	· Distinto que !=
+	· Igual que ==
+	· Y logico &&
+	· O logico OR
+
+* Incremento y decremento 
+
+	· Decremento --
+	· Incremento ++
+	· incremento +=nº - +=5 // incrementara 5 
+	· Decremento -=nº 
+
+* Concatenacion 
+	
+	· unir +
+	

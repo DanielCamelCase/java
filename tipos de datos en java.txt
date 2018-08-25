@@ -1,0 +1,18 @@
+Tipos de datos en Java
+	(Tipos Primitivos)
+
+* Enteros 
+
+	*Int - 4 bytes de espacio. Desde -2,147,484,648 hasta 2,147,484,647
+	*Short - 2 bytes de espacio.Desde -32,768 hasta 32,767
+	*Long - 8 bytes de espacio. Una barbaridad. Sufijo L (232,232,233,233,233L)
+	*Byte - 1 byte de espacio. Desde -128 hasta 127
+
+*Coma flotante (decimales)
+
+	*Float 4 bytes. Aprox 6 a 7 cifras decimales.Sufijo F (8.3465F)
+	*Double 8 bytes.Aprox 15 cifras
+
+*Char Representa caracteres ('r','d')
+
+*Boolean Dos estados True o False (1 o 0)
