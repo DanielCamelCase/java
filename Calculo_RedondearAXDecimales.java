@@ -11,7 +11,7 @@ public class Calculo_RedondearAXDecimales {
 		
 		System.out.printf("%1.2f", x/3);//el resultado es 3333.33
 		
-		//video 15 minuto 18:30 pildoras
+		
 	}
 
 }
