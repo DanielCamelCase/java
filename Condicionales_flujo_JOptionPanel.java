@@ -5,14 +5,19 @@ import javax.swing.JOptionPane;
 public class Condicionales_flujo_JOptionPanel {
 
 	public static void main(String[] args) {
+	String edad=JOptionPane.showInputDialog("Introduzca su edad, por favor");
 		
-		String nombreUsuario=JOptionPane.showInputDialog("Introduzca su nombre, por favor");
+		int edadConver = Integer.parseInt(edad);
 		
-		String edad = JOptionPane.showInputDialog("Intruduzca su edad, por favor");
+		if (edadConver<=18) {
+			
+			System.out.println("eres menor de edad con "+ edadConver+" aÃ±os");
+		}
 	
-		int edadUsuario = Integer.parseInt(edad);
-		
-		System.out.println("Hola usuario "+ nombreUsuario+" su edad es "+ edadUsuario +" y el año que viene sera "+ (edadUsuario+1) +" años");
+		else {
+			
+		System.out.println("eres mayor de edad con "+ edadConver+" aÃ±os");
+		}
 		
 	}
 }
