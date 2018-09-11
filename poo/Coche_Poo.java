@@ -1,3 +1,4 @@
+//Coche_Poo, Uso_Vehiculo y Furgoneta_Uso_Herencia para este ejemplo de herencias son necesirios
 // por primera vez definimos un -package-(paquete nuevo) llamado -(poo)-
 package poo;
 
@@ -41,7 +42,7 @@ public class Coche_Poo {
 	}
 	public String dimeDatosGenerales() {
 		return "la plataforma tiene "+ ruedas +" ruedas, un peso de plataforma "+peso+
-				" un peso total de "+(pesoTotal-peso)+" un motor de "+ motor+" CC";
+				" un peso total de "+(pesoTotal-peso)+" un motor de "+ motor+" CC ";
 	}
 	
 	// METODO SETTER
@@ -70,7 +71,7 @@ public class Coche_Poo {
 	
 	public void configuraAsientos(String asientosCuero) {
 		
-		if (asientosCuero=="si") {
+		if (asientosCuero.equalsIgnoreCase("si")) {
 			this.asientosCuero=true;
 		} else {
 			this.asientosCuero=false;
