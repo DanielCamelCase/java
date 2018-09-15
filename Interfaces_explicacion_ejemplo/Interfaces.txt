@@ -1,0 +1,11 @@
+Se crean para suplir la herencia multiple dado que en java solo puede haber herencia de una clase sobre otra
+caracteristicas - solo contienen Metodos abstractos y constantes
+- Se almacenan en un fichero .class
+- No se pueden instanciar (no uso de = new ..)
+- Todos sus metodos son public y abstract 
+- No contienen variables, solo constantes 
+
+ejemplo de interfaz:
+- herencia simple--------------  ----interfaz--------------------
+class Jefatura Extends Empleado  implements Interfaz1, Interfaz2
+
